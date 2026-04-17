@@ -16,9 +16,10 @@ const data = [
     name: "Channel 2",
     schedules: [
        { start: addMinutes(-60), end: addMinutes(-10), title: "Sports" }, 
-      { start: addMinutes(10), end: addMinutes(70), title: "Music" }     
+      { start: null, end: addMinutes(70), title: "Music" }     
     ]
-  }
+  },
+  
 ];
 
 export default data;
